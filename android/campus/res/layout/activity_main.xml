@@ -1,0 +1,160 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black" >
+
+    <FrameLayout
+        android:background="@color/background_color_day"
+        android:id="@+id/content_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/menu_layout"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:background="@drawable/menu_background_day" >
+		<RelativeLayout
+		    android:background="@android:color/transparent"
+            android:id="@+id/setting_layout"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_alignParentTop="true"
+             >
+            <ImageView
+                android:id="@+id/setting_image_view"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/setting" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_below="@id/setting_layout"
+            android:id="@+id/user_layout"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:background="@android:color/transparent"
+            android:visibility="visible" >
+
+            <RelativeLayout
+                android:id="@+id/logined_layout"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="110dp">
+
+                <ImageView
+                    android:id="@+id/portrait"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/portrait" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@id/portrait" >
+
+                    <TextView
+                        android:id="@+id/username"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/white"
+                        android:layout_marginTop="10dp"
+                        android:text="狮子王"
+                        android:textSize="22sp" />
+                    <RelativeLayout 
+                        android:layout_marginTop="5dp"
+                        android:layout_below="@id/username"
+                        android:id="@+id/location_layout"
+                        android:layout_width="match_parent"
+                    	android:layout_height="wrap_content">
+                        <ImageView
+	                        android:id="@+id/location_image_view"
+	                        android:layout_width="30dp"
+	                        android:layout_height="30dp"
+	                        android:src="@drawable/location_flag" />
+						<TextView
+	                        android:id="@+id/location_text"
+	                        android:layout_width="wrap_content"
+	                        android:layout_height="wrap_content"
+							android:layout_toRightOf="@id/location_image_view"
+	                        android:text="内蒙古大学"
+	                        android:textSize="16sp" />
+                    </RelativeLayout>
+                    
+  					
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:visibility="visible"
+                android:id="@+id/unlogined_layout"
+                android:layout_width="match_parent"
+                android:layout_height="110dp" >
+
+                <ImageView
+                    android:src="@drawable/ma"
+                    android:id="@+id/unlogined_imageView"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="3dp"
+                    android:textSize="22sp" />
+
+                <Button
+                    android:id="@+id/to_login_button"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_below="@id/unlogined_imageView"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/unlogin_background_button"
+                    android:layout_marginTop="5dp"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/white"
+                    android:text="单击此处登录"
+                     />
+                <!-- android:background="@drawable/publish_post_edit_view_day" -->
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <!-- <View
+            android:id="@+id/divider1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/user_layout"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@android:color/black" /> -->
+
+        <ListView
+            android:id="@+id/menu_listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/user_layout"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0dp" >
+        </ListView>
+
+        <!-- <View
+            android:id="@+id/divider2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/menu_listView"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/black" /> -->
+		
+        
+    </RelativeLayout>
+
+</android.support.v4.widget.DrawerLayout>

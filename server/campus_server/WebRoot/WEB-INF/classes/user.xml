@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<package name="user" extends="struts-default" namespace="/">
+		<action name="getAllProvinces" class="com.thelionking.campus.action.UserAction" method="getAllProvinces">
+			<result name="success">result.jsp</result>
+		</action>
+			
+		<action name="getBuildingsBySchoolId" class="com.thelionking.campus.action.UserAction" method="getBuildingsBySchoolId">
+			<result name="success">result.jsp</result>
+		</action>
+		
+		<action name="getRoomsByBuildingId" class="com.thelionking.campus.action.UserAction" method="getRoomsByBuildingId">
+			<result name="success">result.jsp</result>
+		</action>
+		
+		<!-- <action name="insertDiscuss" class="com.thelionking.campus.action.UserAction" method="insertDiscuss">
+			<result name="success">result.jsp</result>
+		</action> -->
+		
+		<action name="getCommentsByDiscussId" class="com.thelionking.campus.action.UserAction" method="getCommentsByDiscussId">
+			<result name="success">result.jsp</result>
+		</action>
+		
+		<action name="getCommentsByUserId" class="com.thelionking.campus.action.UserAction" method="getCommentsByUserId">
+			<result name="success">result.jsp</result>
+		</action>
+		
+		<action name="getDiscussesByUserId" class="com.thelionking.campus.action.UserAction" method="getDiscussesByUserId">
+			<result name="success">result.jsp</result>
+		</action>
+		
+		<action name="getDiscussesByRoomId" class="com.thelionking.campus.action.UserAction" method="getDiscussesByRoomId">
+			<result name="success">result.jsp</result>
+		</action>
+		
+		<!--  <action name="insertComment" class="com.thelionking.campus.action.UserAction" method="insertComment">
+			<result name="success">result.jsp</result>
+		</action>-->
+		
+		<action name="login" class="com.thelionking.campus.action.UserAction" method="login">
+			<result name="success">result.jsp</result>
+		</action>
+		
+		<action name="addSignInScore" class="com.thelionking.campus.action.UserAction" method="addSignInScore">
+			<result name="success">result.jsp</result>
+		</action>
+		
+		<action name="publishDiscuss" class="com.thelionking.campus.action.UserAction" method="publishDiscuss">
+			<result name="success">result.jsp</result>
+		</action>
+		
+		<action name="publishComment" class="com.thelionking.campus.action.UserAction" method="publishComment">
+			<result name="success">result.jsp</result>
+		</action>
+		
+		<action name="register" class="com.thelionking.campus.action.UserAction" method="register">
+			<result name="success">result.jsp</result>
+		</action>
+	</package>
+</struts>

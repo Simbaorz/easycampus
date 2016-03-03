@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<provinces>
+    
+    <province>
+        <provinceId>1</provinceId>
+        <provinceName>北京市</provinceName>
+    </province>
+    
+    <province>
+        <provinceId>2</provinceId>
+        <provinceName>内蒙古自治区</provinceName>
+    </province>
+    
+    <province>
+        <provinceId>3</provinceId>
+        <provinceName>上海市</provinceName>
+    </province>
+    
+    <province>
+        <provinceId>4</provinceId>
+        <provinceName>重庆市</provinceName>
+    </province>
+    
+    <province>
+        <provinceId>5</provinceId>
+        <provinceName>山东省</provinceName>
+    </province>
+    
+    <province>
+        <provinceId>6</provinceId>
+        <provinceName>黑龙江省</provinceName>
+    </province>
+</provinces>

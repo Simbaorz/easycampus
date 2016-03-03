@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 自己规定的一套中国大学的数据格式，供学校选择使用，如果服务器更新则会通知客户端去服务器取数据 -->
+<!-- 内蒙古大学 -->
+<buildings>
+    <schoolId>2</schoolId>
+    <building>
+        <buildingId>1</buildingId>
+        <buildingName>研究生楼</buildingName>
+        <buildingLocation>内蒙古大学本部</buildingLocation>
+        <buildingUrl>null</buildingUrl>
+		<rooms>
+		    <room>
+		        <roomId>1</roomId>
+		        <roomName>201自习室</roomName>
+		        <roomLocation>二楼西侧最里面201教室</roomLocation>
+		        <roomCapacity>2</roomCapacity>
+		        <roomUseRate>32</roomUseRate>
+		    </room>
+		    
+		    <room>
+		        <roomId>2</roomId>
+		        <roomName>204教室</roomName>
+		        <roomLocation>二楼西西侧最里面204教室</roomLocation>
+		        <roomCapacity>2</roomCapacity>
+		        <roomUseRate>48</roomUseRate>
+		    </room>
+		    
+		    <room>
+		        <roomId>3</roomId>
+		        <roomName>408大教室</roomName>
+		        <roomLocation>四楼正中央</roomLocation>
+		        <roomCapacity>3</roomCapacity>
+		        <roomUseRate>89</roomUseRate>
+		    </room>
+		    
+		    <room>
+		        <roomId>4</roomId>
+		        <roomName>606阶梯教室</roomName>
+		        <roomLocation>六楼中央</roomLocation>
+		        <roomCapacity>3</roomCapacity>
+		        <roomUseRate>88</roomUseRate>
+		    </room>
+		</rooms>
+    </building>
+    
+   <building>
+	   <buildingId>2</buildingId>
+        <buildingName>图书馆</buildingName>
+        <buildingLocation>内蒙古大学本部</buildingLocation>
+        <buildingUrl>null</buildingUrl>
+		<rooms>
+		    <room>
+		        <roomId>5</roomId>
+		        <roomName>一楼自习室</roomName>
+		        <roomLocation>1楼中央</roomLocation>
+		        <roomCapacity>2</roomCapacity>
+		        <roomUseRate>88</roomUseRate>
+		    </room>
+		    
+		    <room>
+		        <roomId>6</roomId>
+		        <roomName>二楼自习室</roomName>
+		        <roomLocation>二楼中央</roomLocation>
+		        <roomCapacity>2</roomCapacity>
+		        <roomUseRate>67</roomUseRate>
+		    </room>
+		    
+		    <room>
+		        <roomId>7</roomId>
+		        <roomName>三楼自习室</roomName>
+		        <roomLocation>三楼正中央</roomLocation>
+		        <roomCapacity>3</roomCapacity>
+		        <roomUseRate>91</roomUseRate>
+		    </room>
+		    
+		    <room>
+		        <roomId>8</roomId>
+		        <roomName>四楼自习室</roomName>
+		        <roomLocation>四楼正中央</roomLocation>
+		        <roomCapacity>3</roomCapacity>
+		        <roomUseRate>80</roomUseRate>
+		    </room>
+		    
+		    <room>
+		        <roomId>9</roomId>
+		        <roomName>五楼自习室</roomName>
+		        <roomLocation>五楼正中央</roomLocation>
+		        <roomCapacity>3</roomCapacity>
+		        <roomUseRate>93</roomUseRate>
+		    </room>
+		    
+		    <room>
+		        <roomId>10</roomId>
+		        <roomName>六楼自习室</roomName>
+		        <roomLocation>六楼正中央</roomLocation>
+		        <roomCapacity>3</roomCapacity>
+		        <roomUseRate>91</roomUseRate>
+		    </room>
+		</rooms>
+    </building>
+    
+	<building>    
+		<buildingId>3</buildingId>
+        <buildingName>理工一号楼</buildingName>
+        <buildingLocation>内蒙古大学本部</buildingLocation>
+        <buildingUrl>null</buildingUrl>
+				<rooms>
+		    <room>
+		        <roomId>11</roomId>
+		        <roomName>1楼103实验室</roomName>
+		        <roomLocation>一楼西侧教室</roomLocation>
+		        <roomCapacity>2</roomCapacity>
+		        <roomUseRate>22</roomUseRate>
+		    </room>
+		    
+		    <room>
+		        <roomId>12</roomId>
+		        <roomName>107小教室</roomName>
+		        <roomLocation>1楼最西侧</roomLocation>
+		        <roomCapacity>2</roomCapacity>
+		        <roomUseRate>55</roomUseRate>
+		    </room>
+		    
+		    <room>
+		        <roomId>13</roomId>
+		        <roomName>224阶梯教室</roomName>
+		        <roomLocation>2楼正中央</roomLocation>
+		        <roomCapacity>3</roomCapacity>
+		        <roomUseRate>37</roomUseRate>
+		    </room>
+		    
+		    <room>
+		        <roomId>14</roomId>
+		        <roomName>301阶梯教室</roomName>
+		        <roomLocation>3楼中央</roomLocation>
+		        <roomCapacity>3</roomCapacity>
+		        <roomUseRate>85</roomUseRate>
+		    </room>
+		</rooms>
+    </building>
+    
+	<building>    
+		<buildingId>4</buildingId>
+        <buildingName>综合楼</buildingName>
+        <buildingLocation>内蒙古大学本部</buildingLocation>
+        <buildingUrl>null</buildingUrl>
+			<rooms>
+		    <room>
+		        <roomId>15</roomId>
+		        <roomName>112教室</roomName>
+		        <roomLocation>1楼最西侧</roomLocation>
+		        <roomCapacity>1</roomCapacity>
+		        <roomUseRate>22</roomUseRate>
+		    </room>
+		    
+		    <room>
+		        <roomId>16</roomId>
+		        <roomName>222</roomName>
+		        <roomLocation>二楼最西侧教室</roomLocation>
+		        <roomCapacity>1</roomCapacity>
+		        <roomUseRate>49</roomUseRate>
+		    </room>
+		    
+		    <room>
+		        <roomId>17</roomId>
+		        <roomName>408教室</roomName>
+		        <roomLocation>四楼正中央</roomLocation>
+		        <roomCapacity>3</roomCapacity>
+		        <roomUseRate>33</roomUseRate>
+		    </room>
+		    
+		    <room>
+		        <roomId>18</roomId>
+		        <roomName>447大教室</roomName>
+		        <roomLocation>447大教室</roomLocation>
+		        <roomCapacity>3</roomCapacity>
+		        <roomUseRate>2</roomUseRate>
+		    </room>
+		</rooms>
+    </building>
+    
+	<building>    
+		<buildingId>5</buildingId>
+        <buildingName>理工二号楼</buildingName>
+        <buildingLocation>内蒙古大学本部</buildingLocation>
+        <buildingUrl>null</buildingUrl>
+			<rooms>
+		    <room>
+		        <roomId>19</roomId>
+		        <roomName>201自习室</roomName>
+		        <roomLocation>二楼西侧最里面202教室</roomLocation>
+		        <roomCapacity>2</roomCapacity>
+		        <roomUseRate>33</roomUseRate>
+		    </room>
+		    
+		    <room>
+		        <roomId>20</roomId>
+		        <roomName>204</roomName>
+		        <roomLocation>二楼西西侧最里面204教室</roomLocation>
+		        <roomCapacity>2</roomCapacity>
+		        <roomUseRate>40</roomUseRate>
+		    </room>
+		    
+		    <room>
+		        <roomId>21</roomId>
+		        <roomName>404大教室</roomName>
+		        <roomLocation>四楼正中央</roomLocation>
+		        <roomCapacity>3</roomCapacity>
+		        <roomUseRate>39</roomUseRate>
+		    </room>
+		    
+		    <room>
+		        <roomId>22</roomId>
+		        <roomName>506教室</roomName>
+		        <roomLocation>506大教室</roomLocation>
+		        <roomCapacity>3</roomCapacity>
+		        <roomUseRate>80</roomUseRate>
+		    </room>
+		</rooms>
+    </building>
+    
+	<building>    
+		<buildingId>6</buildingId>
+        <buildingName>计算机教学楼</buildingName>
+        <buildingLocation>内蒙古大学本部</buildingLocation>
+        <buildingUrl>null</buildingUrl>
+		<rooms>
+		    <room>
+		        <roomId>23</roomId>
+		        <roomName>114教室</roomName>
+		        <roomLocation>二楼西侧最里面201教室</roomLocation>
+		        <roomCapacity>1</roomCapacity>
+		        <roomUseRate>2</roomUseRate>
+		    </room>
+		    
+		    <room>
+		        <roomId>24</roomId>
+		        <roomName>304</roomName>
+		        <roomLocation>三楼西西侧最里面304教室</roomLocation>
+		        <roomCapacity>1</roomCapacity>
+		        <roomUseRate>4</roomUseRate>
+		    </room>
+		    
+		    <room>
+		        <roomId>25</roomId>
+		        <roomName>404大教室</roomName>
+		        <roomLocation>四楼正中央</roomLocation>
+		        <roomCapacity>3</roomCapacity>
+		        <roomUseRate>5</roomUseRate>
+		    </room>
+		    
+		    <room>
+		        <roomId>26</roomId>
+		        <roomName>505</roomName>
+		        <roomLocation>505大教室</roomLocation>
+		        <roomCapacity>3</roomCapacity>
+		        <roomUseRate>7</roomUseRate>
+		    </room>
+		</rooms>
+    </building>
+    
+	<building>    
+		<buildingId>7</buildingId>
+        <buildingName>红楼</buildingName>
+        <buildingLocation>内蒙古大学本部</buildingLocation>
+        <buildingUrl>null</buildingUrl>
+				<rooms>
+		    <room>
+		        <roomId>27</roomId>
+		        <roomName>211教室</roomName>
+		        <roomLocation>二楼西侧最里面211教室</roomLocation>
+		        <roomCapacity>2</roomCapacity>
+		        <roomUseRate>33</roomUseRate>
+		    </room>
+		    
+		    <room>
+		        <roomId>28</roomId>
+		        <roomName>207</roomName>
+		        <roomLocation>二楼西西侧最里面207教室</roomLocation>
+		        <roomCapacity>2</roomCapacity>
+		        <roomUseRate>48</roomUseRate>
+		    </room>
+		    
+		    <room>
+		        <roomId>29</roomId>
+		        <roomName>406教室</roomName>
+		        <roomLocation>四楼正中央</roomLocation>
+		        <roomCapacity>3</roomCapacity>
+		        <roomUseRate>89</roomUseRate>
+		    </room>
+		    
+		    <room>
+		        <roomId>30</roomId>
+		        <roomName>608</roomName>
+		        <roomLocation>608大教室</roomLocation>
+		        <roomCapacity>3</roomCapacity>
+		        <roomUseRate>80</roomUseRate>
+		    </room>
+		</rooms>
+    </building>
+    
+	<building>    
+		<buildingId>8</buildingId>
+        <buildingName>化学楼</buildingName>
+        <buildingLocation>内蒙古大学本部</buildingLocation>
+        <buildingUrl>null</buildingUrl>
+		<rooms>
+		    <room>
+		        <roomId>31</roomId>
+		        <roomName>118教室</roomName>
+		        <roomLocation>一楼最里侧</roomLocation>
+		        <roomCapacity>1</roomCapacity>
+		        <roomUseRate>33</roomUseRate>
+		    </room>
+		    
+		    <room>
+		        <roomId>32</roomId>
+		        <roomName>204教室</roomName>
+		        <roomLocation>二楼西西侧最里面204教室</roomLocation>
+		        <roomCapacity>2</roomCapacity>
+		        <roomUseRate>44</roomUseRate>
+		    </room>
+		    
+		    <room>
+		        <roomId>33</roomId>
+		        <roomName>337大教室</roomName>
+		        <roomLocation>三楼正中央</roomLocation>
+		        <roomCapacity>3</roomCapacity>
+		        <roomUseRate>8</roomUseRate>
+		    </room>
+		    
+		    <room>
+		        <roomId>34</roomId>
+		        <roomName>404教室</roomName>
+		        <roomLocation>404大教室</roomLocation>
+		        <roomCapacity>3</roomCapacity>
+		        <roomUseRate>8</roomUseRate>
+		    </room>
+		</rooms>
+    </building>
+    
+	<building>    
+		<buildingId>9</buildingId>
+        <buildingName>生物楼</buildingName>
+        <buildingLocation>内蒙古大学本部</buildingLocation>
+        <buildingUrl>null</buildingUrl>
+				<rooms>
+		    <room>
+		        <roomId>35</roomId>
+		        <roomName>201教室</roomName>
+		        <roomLocation>二楼西侧最里面201教室</roomLocation>
+		        <roomCapacity>2</roomCapacity>
+		        <roomUseRate>32</roomUseRate>
+		    </room>
+		    
+		    <room>
+		        <roomId>36</roomId>
+		        <roomName>203教室</roomName>
+		        <roomLocation>二楼西西侧最里面204教室</roomLocation>
+		        <roomCapacity>1</roomCapacity>
+		        <roomUseRate>42</roomUseRate>
+		    </room>
+		    
+		    <room>
+		        <roomId>37</roomId>
+		        <roomName>404教室</roomName>
+		        <roomLocation>四楼正中央</roomLocation>
+		        <roomCapacity>1</roomCapacity>
+		        <roomUseRate>44</roomUseRate>
+		    </room>
+		    
+		</rooms>
+    </building>
+    
+	<building>    
+		<buildingId>10</buildingId>
+        <buildingName>逸夫楼</buildingName>
+        <buildingLocation>内蒙古大学本部</buildingLocation>
+        <buildingUrl>null</buildingUrl>
+		<rooms>
+		    <room>
+		        <roomId>38</roomId>
+		        <roomName>301自习室</roomName>
+		        <roomLocation>三楼正中央</roomLocation>
+		        <roomCapacity>3</roomCapacity>
+		        <roomUseRate>95</roomUseRate>
+		    </room>
+		    
+		    <room>
+		        <roomId>39</roomId>
+		        <roomName>401自习室</roomName>
+		        <roomLocation>401自习室</roomLocation>
+		        <roomCapacity>3</roomCapacity>
+		        <roomUseRate>96</roomUseRate>
+		    </room>
+		</rooms>
+    </building>
+</buildings>

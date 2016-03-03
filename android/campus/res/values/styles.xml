@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+    </style>
+
+    <!-- 第一步设置主题 -->
+    <style name="StyledIndicators" parent="@android:style/Theme.NoTitleBar">
+        <item name="vpiTabPageIndicatorStyle">@style/CustomTabPageIndicator</item>
+        <item name="vpiUnderlinePageIndicatorStyle">@style/CustomUnderlinePageIndicator</item>
+    </style>
+    <!-- 第二步设置主题 -->
+    <style name="CustomTabPageIndicator" parent="Widget.TabPageIndicator">
+        <!-- 点击时在不同状态下显示的背景色 -->
+        <item name="android:background">@drawable/custom_tab_indicator_bg</item>
+        <!-- 分割线图片设置 -->
+        <item name="android:divider">@drawable/custom_tab_indicator_divider</item>
+        <!-- 设置分割线的显示位置，或是不显示 -->
+        <item name="android:showDividers">none</item>
+        <item name="android:textAppearance">@style/CustomTabPageIndicator.Text</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:dividerPadding">10dp</item>
+        <item name="android:dividerHeight">3dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:fadingEdgeLength">10dp</item>
+        <item name="android:fadingEdge">horizontal</item>
+
+    </style>
+    <!-- 第三步设置主题 -->
+    <style name="CustomTabPageIndicator.Text" parent="android:TextAppearance.Medium">
+        <item name="android:textStyle">bold</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textColor">@color/custom_tab_indicator_text_selector</item>
+    </style>
+
+    <style name="CustomUnderlinePageIndicator">
+        <item name="selectedColor">@color/green</item>
+        <item name="android:background">#00000000</item>
+        <item name="fadeLength">1000</item>
+        <item name="fadeDelay">3000</item>
+    </style>
+</resources>

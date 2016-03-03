@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<user>
+    <userId>1</userId>
+    <userName>chjp</userName>
+    <userScore>50</userScore>
+    <userGrade>11</userGrade>
+    <userImg>portrait1.png</userImg>
+    <userSign>我要好好学习</userSign>
+    <userNickname>狮子王</userNickname>
+    <userPassword>woshi721</userPassword>
+</user>

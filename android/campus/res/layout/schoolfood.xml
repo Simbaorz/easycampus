@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:background="@android:color/white"
+        android:id="@+id/top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <include
+            layout="@layout/top"/>
+    </RelativeLayout>
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/top_divider_color_day" />
+    <RelativeLayout
+        android:id="@+id/building_layout"
+        android:layout_weight="9"
+        android:background="@color/building_layout_day"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+    <GridView
+            android:id="@+id/food_display"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:cacheColorHint="#00000000"
+            android:gravity="center"
+            android:horizontalSpacing="8dip"
+            android:listSelector="#00000000"
+            android:numColumns="3"
+            android:padding="8dip"
+            android:scrollbars="none"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="8dip" >
+        </GridView>
+        </RelativeLayout>
+        
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bottombg"
+            android:orientation="horizontal"
+            android:paddingLeft="20dip"
+            android:paddingRight="20dip" >
+
+            <Button
+                android:id="@+id/food_button1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dip"
+                android:layout_marginTop="8dip"
+                android:layout_weight="1"
+                android:background="@drawable/bottomtabbutton_leftred"
+                android:gravity="center"
+                android:text="大家推荐"
+                android:textColor="#333333"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="1px"
+                android:layout_height="fill_parent"
+                android:src="@drawable/bottomtabbutton_separation" />
+
+            <Button
+                android:id="@+id/food_button2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dip"
+                android:layout_marginTop="8dip"
+                android:layout_weight="1"
+                android:background="@drawable/bottomtabbutton_rightwhite"
+                android:text="我的推荐"
+                android:textColor="#333333"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+</LinearLayout>

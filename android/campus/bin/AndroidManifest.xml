@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.thelionking.campus"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:name="com.thelionking.campus.MainApp"
+        android:label="@string/app_name"
+
+        android:theme="@style/StyledIndicators">
+        <activity
+            android:name=".activity.WelcomeActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance"></activity>
+
+        <activity
+            android:name=".activity.SchoolSelectorActivity"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".activity.SelfStudyRoomActivity"
+            android:label="@string/app_name"
+            android:launchMode="standard"></activity>
+        <activity
+            android:name=".activity.IntroductionActivity"
+            android:label="@string/app_name"
+            android:launchMode="standard"></activity>
+         <activity
+            android:name=".activity.DiscussCommentActivity"
+            android:label="@string/app_name"
+            android:launchMode="standard"></activity>
+         <activity
+            android:name=".activity.PublishPostActivity"
+            android:label="@string/app_name"
+            android:launchMode="standard"></activity>
+         <activity
+            android:name=".activity.LoginActivity"
+            android:label="@string/app_name"
+            android:launchMode="standard"></activity>
+          <activity
+            android:name=".activity.RegisterActivity"
+            android:label="@string/app_name"
+            android:launchMode="standard"></activity>
+          
+        <activity android:name="com.thelionking.campus.syllabus.FeedbackActivity" ></activity>
+        <activity android:name="com.thelionking.campus.syllabus.SelectActivity"> </activity>
+        <activity android:name="com.thelionking.campus.syllabus.SyllabusSet"></activity>
+        <activity android:name="com.thelionking.campus.syllabus.Search_course"></activity>
+        <activity android:name="com.thelionking.campus.syllabus.SyllabusActivity"></activity>
+        <activity android:name="com.thelionking.campus.syllabus.Alarm"></activity>
+        <activity
+            android:name=".activity.SchoolMapActivity"
+           ></activity>
+    </application>
+
+	<uses-permission android:name="android.permission.INTERNET"/>
+</manifest>

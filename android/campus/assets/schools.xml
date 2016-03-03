@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 内蒙古省 -->
+
+<schools>
+    <provinceId>2</provinceId>
+     <school>
+         <schoolId>3</schoolId>
+         <schoolName>内蒙古大学</schoolName>
+         <schoolDescribe>内蒙古大学创建于...</schoolDescribe>
+     </school>
+     
+     <school>
+         <schoolId>4</schoolId>
+         <schoolName>内蒙古工业大学</schoolName>
+         <schoolDescribe>内蒙古工业大学位于金川...</schoolDescribe>
+     </school>
+</schools>

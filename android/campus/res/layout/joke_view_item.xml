@@ -1,0 +1,114 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/ghost_view_bg_day"
+    android:orientation="vertical"
+    tools:context=".WelcomeActivity">
+
+    <RelativeLayout
+        android:id="@+id/top_layout"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transpancy">
+
+        <TextView
+            android:id="@+id/author_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:textSize="16sp"
+            android:layout_marginLeft="10dp"
+            android:text="匿名"
+            android:textColor="@color/author_day" />
+
+        <TextView
+            android:textSize="16sp"
+            android:id="@+id/time_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:text="2014-4-05"
+            android:textColor="@color/author_day" />
+    </RelativeLayout>
+    <View
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/view_separator_bg_day"
+        android:layout_width="match_parent"
+        android:layout_height="1.2dp"/>
+    <RelativeLayout
+        android:id="@+id/content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@color/transpancy">
+
+        <TextView
+            android:id="@+id/content_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:text="鬼故事"
+            android:textSize="18.5sp"
+            android:textColor="@color/content_color_day" />
+
+        <ImageView
+            android:id="@+id/content_image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/content_text_view"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            android:scaleType="centerInside" />
+        <TextView
+            android:id="@+id/content_loading_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/content_text_view"
+            android:text="正在努力加载中..."
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:visibility="visible"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="@color/transpancy" />
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/comment_layout"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@color/transpancy"-->
+        <!--android:orientation="vertical"-->
+        <!--android:visibility="gone">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/first_comment_text_view"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:padding="10dp"-->
+            <!--android:textSize="14sp"-->
+            <!--android:text="哈哈，这个故事一点都不吓人，是个玩笑！"-->
+            <!--android:textColor="@color/black" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/second_comment_text_view"-->
+            <!--android:layout_width="match_parent"-->
+           <!--android:layout_height="wrap_content"-->
+            <!--android:padding="10dp"-->
+            <!--android:textSize="14sp"-->
+            <!--android:text="楼上疯了，这个故事快吓死我了！"-->
+            <!--android:textColor="@color/black" />-->
+    <!--</LinearLayout>-->
+
+</LinearLayout>

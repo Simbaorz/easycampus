@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<rooms>
+    <buildingId></buildingId>
+    <room>
+        <roomId>6</roomId>
+        <roomName>201</roomName>
+        <roomLocation>二楼西侧最里面201教室</roomLocation>
+        <roomCapacity>98</roomCapacity>
+        <roomFree>32</roomFree>
+    </room>
+    
+    <room>
+        <roomId>7</roomId>
+        <roomName>201</roomName>
+        <roomLocation>二楼西侧最里面201教室</roomLocation>
+        <roomCapacity>98</roomCapacity>
+        <roomFree>32</roomFree>
+    </room>
+    
+    <room>
+        <roomId>8</roomId>
+        <roomName>201</roomName>
+        <roomLocation>二楼西侧最里面201教室</roomLocation>
+        <roomCapacity>98</roomCapacity>
+        <roomFree>32</roomFree>
+    </room>
+    
+    <room>
+        <roomId>9</roomId>
+        <roomName>201</roomName>
+        <roomLocation>二楼西侧最里面201教室</roomLocation>
+        <roomCapacity>98</roomCapacity>
+        <roomFree>32</roomFree>
+    </room>
+</rooms>
+   

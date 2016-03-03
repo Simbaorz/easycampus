@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/login_background_color_day"
+    android:orientation="vertical"
+    android:weightSum="7" >
+
+    <RelativeLayout
+        android:id="@+id/placeholder_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5" >
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5.5"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/province_selector_layout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp" >
+
+            <ImageView
+                android:id="@+id/province_selector_image_view"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/username" />
+
+            <AutoCompleteTextView
+                
+                android:completionHint="省份提示"
+                android:dropDownHeight="200dp"
+                android:singleLine="true"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/auto_province_selector"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/province_selector_image_view"
+                android:background="@drawable/login_edit_view_background_day"
+                android:hint="请选择省份"
+                android:paddingLeft="10dp"
+                android:textColor="@android:color/black" >
+                <requestFocus /> 
+            </AutoCompleteTextView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:id="@+id/province_selector_layout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp" >
+
+            <ImageView
+                android:id="@+id/province_selector_image_view"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/password" />
+
+            <AutoCompleteTextView
+                android:completionHint="学校提示"
+                android:dropDownHeight="200dp"
+                android:singleLine="true"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/auto_school_selector"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_toRightOf="@id/province_selector_image_view"
+                android:background="@drawable/login_edit_view_background_day"
+                android:hint="请选择学校"
+                android:textColor="@android:color/black" >
+            </AutoCompleteTextView>
+        </RelativeLayout>
+
+        <Button
+            android:text="确定"
+             android:layout_marginTop="20dp"
+             android:textColor="@android:color/white"
+             android:textStyle="bold"
+             android:textSize="22sp"
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/login_button_background_day" >
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

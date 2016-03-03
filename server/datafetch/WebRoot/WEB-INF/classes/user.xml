@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<package name="user" extends="struts-default" namespace="/">
+		<action name="welcome" class="com.thelionking.datafetch.action.UserAction" method="welcome">
+			<result name="success">index.jsp</result>
+		</action>
+			
+		<action name="getJokesByType" class="com.thelionking.datafetch.action.UserAction" method="getJokesByType">
+			<result name="success">joke_result.jsp</result>
+		</action>
+		
+		<action name="getJokesFromTop" class="com.thelionking.datafetch.action.UserAction" method="getJokesFromTop">
+			<result name="success">joke_result.jsp</result>
+		</action>
+		
+		<action name="getJokesFromBottom" class="com.thelionking.datafetch.action.UserAction" method="getJokesFromBottom">
+			<result name="success">joke_result.jsp</result>
+		</action>
+		<action name="getRemedyAction" class="com.thelionking.datafetch.action.UserAction" method="getRemedyAction">
+			<result name="success">joke_result.jsp</result>
+		</action>
+		
+		<action name="getJokes" class="com.thelionking.datafetch.action.UserAction" method="getJokes">
+			<result name="success">joke_result.jsp</result>
+		</action>
+	</package>
+</struts>

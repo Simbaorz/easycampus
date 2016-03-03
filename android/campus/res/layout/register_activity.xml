@@ -1,0 +1,140 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/login_background_color_day"
+    android:orientation="vertical"
+    android:weightSum="13" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3" >
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_weight="10" >
+
+        <RelativeLayout
+            android:id="@+id/username_layout"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp" >
+
+            <ImageView
+                android:id="@+id/username_image_view"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/username" />
+
+            <EditText
+                android:textColor="@android:color/black"
+                android:id="@+id/username_edit_text"
+                android:layout_width="match_parent"
+                android:paddingLeft="10dp"
+                android:layout_height="42dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/username_image_view"
+                android:background="@drawable/login_edit_view_background_day"
+                android:gravity="left|center_vertical"
+                android:hint="请输入账号"
+                android:inputType="text"
+                android:maxLength="20"
+                android:singleLine="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/password_layout"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@id/username_layout"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="20dp" >
+
+            <ImageView
+                android:id="@+id/password_image_view"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/password" />
+
+            <EditText
+                android:paddingLeft="10dp"
+                android:id="@+id/password_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/password_image_view"
+                android:background="@drawable/login_edit_view_background_day"
+                android:gravity="left|center_vertical"
+                android:hint="请输入密码"
+                android:inputType="textPassword"
+                android:textColor="@android:color/black"
+                android:maxLength="20"
+                android:singleLine="true" />
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:id="@+id/repeat_password_layout"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@id/password_layout"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="20dp" >
+
+            <ImageView
+                android:id="@+id/repeat_password_image_view"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/password" />
+
+            <EditText
+                android:paddingLeft="10dp"
+                android:id="@+id/repeat_password_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/repeat_password_image_view"
+                android:background="@drawable/login_edit_view_background_day"
+                android:gravity="left|center_vertical"
+                android:hint="请重复密码"
+                android:inputType="textPassword"
+                android:textColor="@android:color/black"
+                android:maxLength="20"
+                android:singleLine="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/register_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/repeat_password_layout"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="25dp" >
+
+            <Button
+                android:id="@+id/register_button"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/login_button_background_day"
+                android:text="注册"
+                android:textColor="@android:color/white"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</LinearLayout>

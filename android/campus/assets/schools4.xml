@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 北京市 -->
+
+<schools>
+    <provinceId>1</provinceId>
+     <school>
+         <schoolId>1</schoolId>
+         <schoolName>北京大学</schoolName>
+         <schoolLocation>首都北京</schoolLocation>
+         <schoolDescribe>北京大学创建于...</schoolDescribe>
+     </school>
+     
+     <school>
+         <schoolId>2</schoolId>
+         <schoolName>清华大圩</schoolName>
+         <schoolLocation>首都北京</schoolLocation>
+         <schoolDescribe>清华大学创建于...</schoolDescribe>
+     </school>
+</schools>

@@ -1,0 +1,114 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color_day"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@android:color/white" >
+
+        <ImageView
+            android:id="@+id/return_image_image_view"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/return_image" />
+
+        <TextView
+            android:id="@+id/title_text_view_flag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/return_image_image_view"
+            android:layout_marginLeft="15dp"
+            android:text="@string/publish_post_text"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+ 
+        <TextView
+            android:id="@+id/publish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:text="发布"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+	<View android:id="@+id/divider"
+	    android:background="@color/top_divider_color_day"
+	    android:layout_width="match_parent"
+	    android:layout_height="1dp"/>
+    <EditText
+        android:id="@+id/title_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/publish_post_edit_view_day"
+        android:gravity="left|top"
+        android:hint="这里输入标题"
+        android:inputType="textMultiLine"
+        android:padding="5dp"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/content_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/publish_post_edit_view_day"
+        android:gravity="top"
+        android:hint="输入内容"
+        android:padding="5dp"
+        android:textColor="@android:color/black" />
+
+    <RadioGroup
+        android:id="@+id/type_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/publish_post_edit_view_day"
+        android:orientation="horizontal"
+        android:paddingBottom="2dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="10dp"
+        android:paddingTop="2dp" >
+
+        <RadioButton
+            android:id="@+id/pa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pa_text"
+            android:textColor="@android:color/black" />
+
+        <RadioButton
+            android:id="@+id/hang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hang_text"
+            android:textColor="@android:color/black" />
+
+        <RadioButton
+            android:id="@+id/deal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/deal_text"
+            android:textColor="@android:color/black" />
+    </RadioGroup>
+
+</LinearLayout>

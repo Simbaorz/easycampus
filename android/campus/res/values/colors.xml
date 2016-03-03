@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="green">#ADFF2F</color>
+    <color name="building_layout_day">#EBEBEB</color>
+    <color name="building_layout_night">#EBEBEB</color>
+    <color name="light_orange">#FFEC8B</color>
+    <color name="gray">#8B7D6B</color>
+    <color name="blue">#7EC0EE</color>
+    <color name="gray_blue">#8DB6CD</color>
+    <color name="deep_blue">#528B8B</color>
+    <color name="login_edit_view_color_day">#d4d4d4</color>
+     <color name="top_divider_color_day">#897E7E</color>
+     <color name="background_color_day">#EFEFEF</color>
+     <color name="login_background_color_day">#DCDCDC</color>
+     <color name="login_button_color_day">#5856d6</color>
+     <color name="new_user_text_view_color_day">#a2a2a2</color>
+     <color name="click_me">#ea3832</color>
+     <color name="main_top_setting_background_day">#898d8c</color>
+     <color name="user_background_day">#232c27</color>
+     <color name="building_odd_background">#e6e2e2</color>
+     <color name="building_even_background">#fbf2f2</color>
+      <color name="room_top_background">#bad55e</color>
+     <color name="room_user_rate_empty_color">#34a737</color> 
+      <color name="room_user_rate_full_color">#ff0000</color> 
+      
+      
+      
+      
+      
+    <color name="orange">#EEDC82</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#CCCCCC</color>
+    <color name="transpancy">#00000000</color>
+    <color name="middle_bg">#8B795E</color>
+
+    <color name="cyan">#EAEAEA</color>
+    <color name="item_view_top">#C1CDCD</color>
+    <color name="item_view_bottom">#CDCDB4</color>
+    <color name="title_selected">#F0E68C</color>
+    <color name="content_color_day">#3D3D3D</color>
+    <color name="top_color_day">#3D3D3D</color>
+    <color name="navigator_textview_bg_day">#40EEDC82</color>
+    <color name="view_separator_bg_day">#402E2E2E</color>
+    <color name="top_layout_bg_day">#8B668B</color>
+    <color name="top_textview_bg_day">#000000</color>
+    <color name="author_day">#737373</color>
+</resources>

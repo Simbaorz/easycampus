@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@android:color/transparent"
+    android:layout_height="51dp">
+     <RelativeLayout
+         	android:layout_marginLeft="50dp"
+            android:id="@+id/estimation_layout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@android:color/white" >
+
+            <ProgressBar
+                android:id="@+id/progressBar1"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:max="100"
+                android:progress="20"
+                android:progressDrawable="@drawable/progress_bar_style"
+       			>
+            </ProgressBar>
+
+            <TextView
+                android:textSize="14sp"
+                android:textColor="#C4C4C4"
+                android:layout_marginLeft="10dp"
+                android:layout_centerVertical="true"
+                android:id="@+id/occupancy_rate_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+        </RelativeLayout>
+        <View 
+            android:layout_marginLeft="50dp"
+            android:background="@android:color/black"
+            android:layout_below="@id/estimation_layout"
+            android:id="@+id/divider_room"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+            
+</RelativeLayout>
+
